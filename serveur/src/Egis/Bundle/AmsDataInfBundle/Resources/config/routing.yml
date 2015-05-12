@@ -1,0 +1,3 @@
+egis_ams_data_inf_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EgisAmsDataInfBundle:Default:index }

@@ -1,0 +1,10 @@
+{% stylesheets '@EgisAmsBundle/Resources/public/js/extjs/resources/css/ext-all.css' %}
+            <link href="{{ asset_url }}" type="text/css" rel="stylesheet" />
+{% endstylesheets %}
+
+{% javascripts '@CtaCommonBundle/Resources/public/js/extjs/ext-debug.js'%}
+            <script src="{{ asset_url }}"></script>
+            <script>
+                  Ext.Loader.setPath('Ext', '/bundles/ctacommon/js/extjs/src');
+            </script>
+{% endjavascripts %}

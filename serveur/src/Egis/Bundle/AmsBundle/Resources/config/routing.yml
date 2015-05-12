@@ -1,0 +1,6 @@
+egis_ams_authenticate:
+    path:     /Authenticate/{login}/{password}
+    defaults: { _controller: EgisAmsBundle:Authenticate:login }
+egis_ams_geo:
+    path:     /GeoData/{schema}/{table}/{apiKey}
+    defaults: { _controller: EgisAmsBundle:GeoData:read }
