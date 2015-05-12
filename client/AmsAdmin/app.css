@@ -1,0 +1,48 @@
+.lbl-title  
+{
+   
+    color: white;    	
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    font-size:32px;
+    
+}
+.icon-factory {
+    background-image: url(resources/icons/16x16/factory.png) !important;   
+}
+.icon-service {
+    background-image: url(resources/icons/16x16/service.png) !important;   
+}
+.icon-fonction {
+    background-image: url(resources/icons/16x16/fonction.png) !important;   
+}
+.icon-profil {
+    background-image: url(resources/icons/16x16/profil.png) !important;   
+}
+.icon-user {
+    background-image: url(resources/icons/16x16/user.png) !important;   
+}
+.icon-settings {
+    background-image: url(resources/icons/16x16/settings.png) !important;   
+}
+
+.icon-create-big {
+    background-image: url(resources/icons/32x32/add.png) !important;   
+}
+.icon-delete-big {
+    background-image: url(resources/icons/32x32/delete.png) !important;   
+}
+.icon-update-big {
+    background-image: url(resources/icons/32x32/update.png) !important;   
+}
+
+.icon-ok-medium {
+    background-image: url(resources/icons/24x24/ok.png) !important;   
+    width:24px;
+    height:24px;
+}
+
+.icon-cancel-medium {
+    background-image: url(resources/icons/24x24/cancel.png) !important;   
+    width:24px;
+    height:24px;
+}

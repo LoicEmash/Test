@@ -1,0 +1,19 @@
+egis_ams_data_sig:
+    resource: "@EgisAmsDataSigBundle/Resources/config/routing.yml"
+    prefix:   /
+
+egis_ams_data_inf:
+    resource: "@EgisAmsDataInfBundle/Resources/config/routing.yml"
+    prefix:   /
+
+egis_ams:
+    resource: "@EgisAmsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+egis_ext_js:
+    resource: "@EgisExtJsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

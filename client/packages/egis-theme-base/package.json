@@ -1,0 +1,22 @@
+{
+    "name": "egis-theme-base",
+    "type": "theme",
+    "creator": "Loïc Lecuyer",
+    "summary": "Thème ExtJs EGIS",
+    "detailedDescription": "Thème utilisé pour toutes les applications ExtJs EGIS",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "slicer": {
+        "js": [
+            {
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "output": "${package.dir}/build",
+    "local": true,
+    "requires": [],
+    "extend": "ext-theme-neutral"
+}

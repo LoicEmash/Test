@@ -1,0 +1,20 @@
+egis_rest_read:
+    path:     /Data/{schema}/{table}
+    defaults: { _controller: EgisExtJsBundle:Rest:read }
+    requirements:
+        _method:  GET
+egis_rest_create:
+    path:     /Data/{schema}/{table}
+    defaults: { _controller: EgisExtJsBundle:Rest:create }
+    requirements:
+        _method:  POST
+egis_rest_update:
+    path:     /Data/{schema}/{table}
+    defaults: { _controller: EgisExtJsBundle:Rest:update }
+    requirements:
+        _method:  PUT
+egis_rest_delete:
+    path:     /Data/{schema}/{table}
+    defaults: { _controller: EgisExtJsBundle:Rest:delete }
+    requirements:
+        _method:  DELETE

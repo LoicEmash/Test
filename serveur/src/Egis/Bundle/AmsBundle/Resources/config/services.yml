@@ -1,0 +1,4 @@
+services:
+#    egis_ams.example:
+#        class: Egis\Bundle\AmsBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
