@@ -1,0 +1,39 @@
+.lbl-title  
+{
+   
+    color: white;    	
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    font-size:32px;
+    
+}
+
+.icon-ok-medium {
+    background-image: url(resources/icons/24x24/ok.png) !important;   
+    width:24px;
+    height:24px;
+}
+
+.icon-cancel-medium {
+    background-image: url(resources/icons/24x24/cancel.png) !important;   
+    width:24px;
+    height:24px;
+}
+
+.icon-create-big {
+    background-image: url(resources/icons/32x32/add.png) !important;   
+}
+.icon-delete-big {
+    background-image: url(resources/icons/32x32/delete.png) !important;   
+}
+.icon-update-big {
+    background-image: url(resources/icons/32x32/update.png) !important;   
+}
+
+.icon-find-big {
+    background-image: url(resources/icons/32x32/find.png) !important;   
+}
+.icon-clear-big {
+    background-image: url(resources/icons/32x32/table.png) !important;   
+}
+
+
